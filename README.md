@@ -1,6 +1,10 @@
 # Instagram VueJS
 Instagram clone client side
 
+## Preview
+
+![demo](demo.png)
+
 ## Backend API
 https://github.com/marceloivanofre/instragram-nodejs
 
