@@ -2,6 +2,10 @@ import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
 import store from "./store";
+import api from "./services/api";
+import "./toasted";
+
+Vue.prototype.$http = api;
 
 Vue.config.productionTip = false;
 
