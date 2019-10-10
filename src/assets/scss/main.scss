@@ -1,3 +1,6 @@
+$breal-small: 600px;
+$breal-large: 1000px;
+
 html,
 body,
 #app {
@@ -10,7 +13,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   background: #fafafa;
-  font-family: "Roboto", Helvetica, sans-serif;
+  font-family: 'Karla', sans-serif;
 }
 
 a {
@@ -23,3 +26,7 @@ li {
 
 @import 'pages/login.scss';
 @import 'pages/register.scss';
+@import 'pages/home.scss';
+@import 'components/toolbar.scss';
+@import 'components/stories.scss';
+@import 'components/post.scss';

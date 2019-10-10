@@ -1,0 +1,36 @@
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  width: calc(100% - 40px);
+  position: fixed;
+  background-color: #fff;
+  box-shadow: 1px 1px .5px #ccc;
+  top: 0;
+
+  a {
+    color: #000;
+  }
+
+  img {
+    display: none;
+    max-height: 30px;
+  }
+
+  i {
+    font-size: 26px;
+    cursor: pointer;
+  }
+
+  .group-icon {
+   width: 120px;
+   display: flex;
+   justify-content: space-between; 
+  }
+
+  @media screen and (min-width: $breal-large) {
+    img {
+      display: flex;
+    }
+  }
+}

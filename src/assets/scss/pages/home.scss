@@ -1,0 +1,28 @@
+.home {
+  .container {
+    max-width: 600px;
+    margin-top: 56px;
+
+    @media screen and (min-width: $breal-large){
+      max-width: 90%;
+      display: flex;
+      flex-flow: row-reverse;
+    }
+  }
+
+  .posts {
+    display: flex;
+    flex-flow: column;
+  }
+
+  @media screen and (min-width: $breal-small) {
+    display: flex;
+    justify-content: center;
+
+    .post {
+      margin: 10px 0;
+      border: 1px solid #ddd;
+      border-radius: 3px;
+    }
+  }
+}

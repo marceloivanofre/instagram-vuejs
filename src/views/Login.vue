@@ -36,8 +36,7 @@ export default {
           password: this.password
         });
 
-        localStorage.setItem("jwt", response.data.token);
-        this.$router.push({ name: "home" });
+        this.$store.commit("login", response.data.token);
       } catch (error) {
         if (error.response.status === 400) {
           this.$toasted.error("Email e/ou senha inválidos");
