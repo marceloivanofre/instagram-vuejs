@@ -3,7 +3,8 @@ Instagram clone client side
 
 ## Preview
 
-![demo](demo.png)
+![demo](demo.png) ![feed-mobile](feed-mobile.png)
+![feed](feed.png)
 
 ## Backend API
 https://github.com/marceloivanofre/instragram-nodejs
