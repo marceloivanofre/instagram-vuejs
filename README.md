@@ -7,7 +7,7 @@ Instagram clone client side
 ![feed](feed.png)
 
 ## Backend API
-https://github.com/marceloivanofre/instragram-nodejs
+https://github.com/marceloivanofre/instagram-nodejs
 
 ## Install and run
 
