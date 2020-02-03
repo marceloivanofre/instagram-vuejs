@@ -2,7 +2,7 @@
   <div class="post">
     <div class="author">
       <img :src="post.user.avatar" :alt="post.user.name" />
-      <b>{{post.user.name}}</b>
+      <b>{{ post.user.name }}</b>
     </div>
     <img :src="post.post.img_url" :alt="post.user.name" />
     <div class="actions">
@@ -15,11 +15,11 @@
     </div>
     <p class="likes">
       Curtido por
-      <b>{{post.post.likes}} pessoas</b>
+      <b>{{ post.post.likes }} pessoas</b>
     </p>
     <p v-for="comment in post.post.comments" :key="comment.id" class="comment">
-      <b>{{comment.author}}</b>
-      {{comment.comment}}
+      <b>{{ comment.author }}</b>
+      {{ comment.comment }}
     </p>
     <div class="comments"></div>
   </div>

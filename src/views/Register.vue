@@ -10,7 +10,8 @@
       <button type="submit" class="login-btn">Cadastre-se</button>
     </form>
     <div>
-      <hr />OU
+      <hr />
+      OU
       <hr />
     </div>
     <span>

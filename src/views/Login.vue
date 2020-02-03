@@ -4,10 +4,13 @@
     <form class="form-group" @submit.prevent="login">
       <input type="email" v-model="email" placeholder="Email" required />
       <input type="password" v-model="password" placeholder="Senha" required />
-      <button type="submit" class="login-btn" :disabled="!email || !password">Entrar</button>
+      <button type="submit" class="login-btn" :disabled="!email || !password">
+        Entrar
+      </button>
     </form>
     <div>
-      <hr />OU
+      <hr />
+      OU
       <hr />
     </div>
     <span>

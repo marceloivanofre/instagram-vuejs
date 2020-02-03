@@ -2,7 +2,7 @@
   <div class="stories">
     <div v-for="storie in stories" :key="storie.name">
       <img :src="storie.avatar" :alt="storie.name" />
-      <small>{{storie.name}}</small>
+      <small>{{ storie.name }}</small>
     </div>
   </div>
 </template>
